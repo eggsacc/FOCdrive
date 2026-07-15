@@ -490,7 +490,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -672,7 +672,7 @@
         "uuid": "1cfe65f9-f673-4819-b0fb-9ca652a1a340"
       }
     ],
-    "used_designators": "U11",
+    "used_designators": "U11,Q1,C47",
     "variants": []
   },
   "sheets": [

@@ -691,7 +691,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "HYG025N06LS1C2_1"
+		(symbol "component-addon:HYG025N06LS1C2"
 			(pin_numbers
 				(hide yes)
 			)
@@ -703,19 +703,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J2"
-				(at 8.89 5.0801 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "HYG025N06LS1C2"
-				(at -7.112 9.652 0)
+			(property "Reference" "J"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -724,7 +713,17 @@
 					)
 				)
 			)
-			(property "Footprint" "addons:HYG025N06LS1C2"
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -757,7 +756,7 @@
 					)
 				)
 			)
-			(symbol "HYG025N06LS1C2_1_0_1"
+			(symbol "HYG025N06LS1C2_0_1"
 				(polyline
 					(pts
 						(xy 0.254 6.985) (xy 0.254 3.175)
@@ -937,7 +936,7 @@
 					)
 				)
 			)
-			(symbol "HYG025N06LS1C2_1_1_1"
+			(symbol "HYG025N06LS1C2_1_1"
 				(pin passive line
 					(at 2.54 0 90)
 					(length 2.54)
@@ -2104,7 +2103,7 @@
 		(at 87.63 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9c5855a1-bedd-45ee-aaa2-6228dfde8329")
+		(uuid "9a1bfacd-dece-445a-9c69-38bdd58e2026")
 	)
 	(junction
 		(at 97.79 33.02)
@@ -6617,7 +6616,6 @@
 		)
 	)
 	(symbol
-		(lib_name "HYG025N06LS1C2_1")
 		(lib_id "component-addon:HYG025N06LS1C2")
 		(at 82.55 44.45 0)
 		(unit 1)
@@ -6628,7 +6626,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "379a6155-0f9f-4557-97e6-1d4c548ae902")
-		(property "Reference" "J1"
+		(property "Reference" "Q1"
 			(at 91.44 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6685,7 +6683,7 @@
 		(pin "1"
 			(uuid "d77fb15a-b59b-44c9-8856-6e7a46de8218")
 		)
-		(pin "7"
+		(pin "8"
 			(uuid "9cd496e8-a7d3-4d46-90b2-aaffd41ea063")
 		)
 		(pin "3"
@@ -6700,26 +6698,25 @@
 		(pin "5"
 			(uuid "5dbe4b36-70b4-4751-9e8d-8caa87a00d84")
 		)
-		(pin "6"
+		(pin "7"
 			(uuid "973e9f69-9b23-438f-b664-da29adc5fc5f")
 		)
 		(pin "2"
 			(uuid "76f8608a-3c2a-4ed7-aae9-3caecea80891")
 		)
-		(pin "8"
+		(pin "6"
 			(uuid "828df970-a3c5-4916-9269-dc1cf700a0fd")
 		)
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/248405ad-1825-484c-82f9-c319ebcf1726"
-					(reference "J1")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "HYG025N06LS1C2_1")
 		(lib_id "component-addon:HYG025N06LS1C2")
 		(at 179.07 44.45 0)
 		(unit 1)
@@ -6730,7 +6727,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3879468b-8091-4e71-837a-42ea14d2f4b5")
-		(property "Reference" "J3"
+		(property "Reference" "Q3"
 			(at 187.96 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6814,14 +6811,13 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/248405ad-1825-484c-82f9-c319ebcf1726"
-					(reference "J3")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "HYG025N06LS1C2_1")
 		(lib_id "component-addon:HYG025N06LS1C2")
 		(at 82.55 64.77 0)
 		(unit 1)
@@ -6832,7 +6828,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b4ba4e9-b10b-4f77-bf84-28fbfb7d2f66")
-		(property "Reference" "J2"
+		(property "Reference" "Q2"
 			(at 91.44 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6890,7 +6886,7 @@
 		(pin "1"
 			(uuid "65e2303b-7123-4e8f-b24c-f0028b1682c1")
 		)
-		(pin "7"
+		(pin "6"
 			(uuid "89e5943f-8637-4ccf-8c68-f4cbb0f04271")
 		)
 		(pin "3"
@@ -6905,19 +6901,19 @@
 		(pin "5"
 			(uuid "6a64d142-5d55-418d-ba29-32f847370513")
 		)
-		(pin "6"
+		(pin "8"
 			(uuid "6f04e46b-f2eb-4ef1-a2a8-167064831980")
 		)
 		(pin "2"
 			(uuid "8d2d2ae8-ad6e-49e2-8371-0ab8751c06e2")
 		)
-		(pin "8"
+		(pin "7"
 			(uuid "9a66a50f-7917-478d-9efb-1f399f6338db")
 		)
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/248405ad-1825-484c-82f9-c319ebcf1726"
-					(reference "J2")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -7001,7 +6997,6 @@
 		)
 	)
 	(symbol
-		(lib_name "HYG025N06LS1C2_1")
 		(lib_id "component-addon:HYG025N06LS1C2")
 		(at 82.55 138.43 0)
 		(unit 1)
@@ -7012,7 +7007,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b816fdf-7bdf-479f-9fce-914e66cb724c")
-		(property "Reference" "J6"
+		(property "Reference" "Q6"
 			(at 91.44 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7070,7 +7065,7 @@
 		(pin "1"
 			(uuid "1f3e72cf-1882-41ea-91b1-efb43abb1751")
 		)
-		(pin "7"
+		(pin "8"
 			(uuid "5037b954-d508-4e97-a19e-d69222ecfd10")
 		)
 		(pin "3"
@@ -7085,19 +7080,19 @@
 		(pin "5"
 			(uuid "a19b5de8-036e-4264-88c5-bf840f7e4e85")
 		)
-		(pin "6"
+		(pin "7"
 			(uuid "204a6074-575d-475f-8d53-d5503605d895")
 		)
 		(pin "2"
 			(uuid "6b5cf1c4-8564-4748-bddb-0313b1ae6107")
 		)
-		(pin "8"
+		(pin "6"
 			(uuid "0ff43d38-e2f2-48cd-9e9c-8f6daa2f6868")
 		)
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/248405ad-1825-484c-82f9-c319ebcf1726"
-					(reference "J6")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -7997,7 +7992,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "717a5bf7-dba5-4dea-8298-20faa65bafd0")
-		(property "Reference" "U10"
+		(property "Reference" "U5"
 			(at 124.46 137.922 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8077,7 +8072,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/248405ad-1825-484c-82f9-c319ebcf1726"
-					(reference "U10")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -9680,7 +9675,6 @@
 		)
 	)
 	(symbol
-		(lib_name "HYG025N06LS1C2_1")
 		(lib_id "component-addon:HYG025N06LS1C2")
 		(at 179.07 64.77 0)
 		(unit 1)
@@ -9691,7 +9685,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c97e8f1c-24d1-4309-a43a-015cf06b71e3")
-		(property "Reference" "J4"
+		(property "Reference" "Q4"
 			(at 187.96 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9776,7 +9770,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/248405ad-1825-484c-82f9-c319ebcf1726"
-					(reference "J4")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -10438,7 +10432,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebee16b4-d115-4877-bae3-04fd9fbd9c65")
-		(property "Reference" "U8"
+		(property "Reference" "U3"
 			(at 124.46 64.262 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10518,7 +10512,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/248405ad-1825-484c-82f9-c319ebcf1726"
-					(reference "U8")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -10602,7 +10596,6 @@
 		)
 	)
 	(symbol
-		(lib_name "HYG025N06LS1C2_1")
 		(lib_id "component-addon:HYG025N06LS1C2")
 		(at 82.55 118.11 0)
 		(unit 1)
@@ -10613,7 +10606,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0688f9b-9726-4e2f-aca0-c617a7ee1b6a")
-		(property "Reference" "J5"
+		(property "Reference" "Q5"
 			(at 91.44 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10670,7 +10663,7 @@
 		(pin "1"
 			(uuid "7b8d35cb-13cc-4d4c-a234-ce0feeaefea9")
 		)
-		(pin "7"
+		(pin "6"
 			(uuid "88c763ac-1b81-4970-829d-6289f587419d")
 		)
 		(pin "3"
@@ -10685,7 +10678,7 @@
 		(pin "5"
 			(uuid "cd094de8-8779-4465-96ab-b3fa5194cc74")
 		)
-		(pin "6"
+		(pin "7"
 			(uuid "9bd484ed-27b3-40bc-85e6-d59795993f27")
 		)
 		(pin "2"
@@ -10697,7 +10690,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/248405ad-1825-484c-82f9-c319ebcf1726"
-					(reference "J5")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -10794,7 +10787,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7d84946-ba3c-4df8-b64c-01fccd397e7a")
-		(property "Reference" "U9"
+		(property "Reference" "U4"
 			(at 220.98 64.262 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10874,7 +10867,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/248405ad-1825-484c-82f9-c319ebcf1726"
-					(reference "U9")
+					(reference "U4")
 					(unit 1)
 				)
 			)

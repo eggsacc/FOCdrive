@@ -3686,7 +3686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ae2390e-2135-4468-b404-99ea30293fc2")
-		(property "Reference" "C30"
+		(property "Reference" "C39"
 			(at 153.6636 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3748,7 +3748,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/f11b4b8c-1f7a-4164-8f83-b37924046d35"
-					(reference "C30")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -3765,7 +3765,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12933793-8666-4f3f-ac67-767d79310b4c")
-		(property "Reference" "C31"
+		(property "Reference" "C40"
 			(at 168.402 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3829,7 +3829,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/f11b4b8c-1f7a-4164-8f83-b37924046d35"
-					(reference "C31")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -4006,7 +4006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e074d5c-95c6-4553-8e94-306c55308958")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 54.61 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4070,7 +4070,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/f11b4b8c-1f7a-4164-8f83-b37924046d35"
-					(reference "D1")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4087,7 +4087,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23ae2179-d719-4453-ba33-9cf445991312")
-		(property "Reference" "C32"
+		(property "Reference" "C36"
 			(at 97.282 94.488 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4151,7 +4151,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/f11b4b8c-1f7a-4164-8f83-b37924046d35"
-					(reference "C32")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -4168,7 +4168,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "266fff2b-75b9-4a93-bf3c-6036e1710371")
-		(property "Reference" "C33"
+		(property "Reference" "C35"
 			(at 76.962 99.568 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4232,7 +4232,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/f11b4b8c-1f7a-4164-8f83-b37924046d35"
-					(reference "C33")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -4250,7 +4250,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3e2ca7e0-0dd9-4a6a-ba9b-c0b566e46f13")
-		(property "Reference" "C28"
+		(property "Reference" "C45"
 			(at 104.14 54.9909 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4314,7 +4314,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/f11b4b8c-1f7a-4164-8f83-b37924046d35"
-					(reference "C28")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -4331,7 +4331,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e6fb628-d536-4d0b-b7e7-a63552cb6c7c")
-		(property "Reference" "R34"
+		(property "Reference" "R31"
 			(at 68.072 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4393,7 +4393,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/f11b4b8c-1f7a-4164-8f83-b37924046d35"
-					(reference "R34")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -4489,7 +4489,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42ded71e-c3d7-4fca-8754-b2c8de6dd9de")
-		(property "Reference" "R30"
+		(property "Reference" "R32"
 			(at 149.606 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4551,7 +4551,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/f11b4b8c-1f7a-4164-8f83-b37924046d35"
-					(reference "R30")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -4568,7 +4568,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "446cb26a-4abf-4382-9a47-f67041715e34")
-		(property "Reference" "C36"
+		(property "Reference" "C42"
 			(at 96.012 133.858 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4632,7 +4632,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/f11b4b8c-1f7a-4164-8f83-b37924046d35"
-					(reference "C36")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -4649,7 +4649,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "467bcc1e-ab0e-4e66-a7ef-44a76769ea9a")
-		(property "Reference" "D11"
+		(property "Reference" "D4"
 			(at 107.696 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4724,7 +4724,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/f11b4b8c-1f7a-4164-8f83-b37924046d35"
-					(reference "D11")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4819,7 +4819,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5106f181-d59d-451d-9a15-787d93e25d2a")
-		(property "Reference" "J19"
+		(property "Reference" "J5"
 			(at 99.06 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4881,7 +4881,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/f11b4b8c-1f7a-4164-8f83-b37924046d35"
-					(reference "J19")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5054,7 +5054,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "543e6f8f-80df-4089-8355-560fd37439a8")
-		(property "Reference" "C34"
+		(property "Reference" "C37"
 			(at 112.522 94.488 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5118,7 +5118,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/f11b4b8c-1f7a-4164-8f83-b37924046d35"
-					(reference "C34")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -5372,7 +5372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "679d4f6b-9dd5-4c5a-bfe6-54116cef68fc")
-		(property "Reference" "R31"
+		(property "Reference" "R33"
 			(at 158.75 95.504 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5434,7 +5434,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/f11b4b8c-1f7a-4164-8f83-b37924046d35"
-					(reference "R31")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -5452,7 +5452,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "74dffd60-551f-4b65-8bd4-94a066ae7c39")
-		(property "Reference" "C40"
+		(property "Reference" "C46"
 			(at 116.84 54.9909 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5516,7 +5516,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/f11b4b8c-1f7a-4164-8f83-b37924046d35"
-					(reference "C40")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -5627,7 +5627,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7da08fd9-9366-4e6b-8d99-aee618f19928")
-		(property "Reference" "C35"
+		(property "Reference" "C41"
 			(at 57.912 135.128 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5691,7 +5691,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/f11b4b8c-1f7a-4164-8f83-b37924046d35"
-					(reference "C35")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -5918,7 +5918,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92aecda8-4407-4b56-bb68-fb7a8a194819")
-		(property "Reference" "L3"
+		(property "Reference" "L1"
 			(at 162.814 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5982,7 +5982,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/f11b4b8c-1f7a-4164-8f83-b37924046d35"
-					(reference "L3")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -5999,7 +5999,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9e942590-77f8-4208-949f-7866fd8ed74c")
-		(property "Reference" "C29"
+		(property "Reference" "C38"
 			(at 125.222 94.488 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6063,7 +6063,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/f11b4b8c-1f7a-4164-8f83-b37924046d35"
-					(reference "C29")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -6160,7 +6160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b461126f-fa5f-4dba-97db-46f6990c624a")
-		(property "Reference" "U6"
+		(property "Reference" "U8"
 			(at 80.01 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6232,7 +6232,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/f11b4b8c-1f7a-4164-8f83-b37924046d35"
-					(reference "U6")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -6405,7 +6405,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf660b3f-31f4-48a3-be2b-c45e97ac2983")
-		(property "Reference" "R39"
+		(property "Reference" "R35"
 			(at 100.33 127 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6467,7 +6467,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/f11b4b8c-1f7a-4164-8f83-b37924046d35"
-					(reference "R39")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -6562,7 +6562,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de1047df-535f-45b9-b25e-073a1ae934ff")
-		(property "Reference" "R36"
+		(property "Reference" "R34"
 			(at 68.58 137.922 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6624,7 +6624,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/f11b4b8c-1f7a-4164-8f83-b37924046d35"
-					(reference "R36")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -6720,7 +6720,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e19ab57d-22b1-48ad-bcbe-f1e91963f04e")
-		(property "Reference" "R33"
+		(property "Reference" "R30"
 			(at 68.072 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6782,7 +6782,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/f11b4b8c-1f7a-4164-8f83-b37924046d35"
-					(reference "R33")
+					(reference "R30")
 					(unit 1)
 				)
 			)

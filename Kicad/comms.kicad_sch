@@ -2122,26 +2122,26 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U2"
-				(at 5.08 -9.144 0)
+			(property "Reference" "U"
+				(at -2.54 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
 			(property "Value" "SN65HVD230"
-				(at 0.762 8.382 0)
+				(at -2.54 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
 			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
@@ -2339,7 +2339,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at -10.16 -5.08 0)
 					(length 2.54)
 					(name "Rs"
@@ -3447,6 +3447,12 @@
 		(uuid "a195c2fb-9474-4062-8506-876ae791e6a7")
 	)
 	(junction
+		(at 96.52 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3b5a556-1c18-4840-9524-683bf5134da2")
+	)
+	(junction
 		(at 226.06 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3523,6 +3529,16 @@
 			(type default)
 		)
 		(uuid "1e599c71-64fe-479a-9cc5-6cb2377ff84a")
+	)
+	(wire
+		(pts
+			(xy 105.41 90.17) (xy 96.52 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ed255e2-673e-4e24-afab-004ddaecf219")
 	)
 	(wire
 		(pts
@@ -3633,6 +3649,16 @@
 			(type default)
 		)
 		(uuid "4c6a8762-332e-46b8-b406-f1b6cd36633e")
+	)
+	(wire
+		(pts
+			(xy 105.41 97.79) (xy 96.52 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc643a7-f3d2-442c-9920-6a043ef47eeb")
 	)
 	(wire
 		(pts
@@ -3796,6 +3822,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 99.06) (xy 96.52 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b18ce3-d8c6-42db-8cc3-7ccd2e11a023")
+	)
+	(wire
+		(pts
 			(xy 58.42 66.04) (xy 69.85 66.04)
 		)
 		(stroke
@@ -3866,6 +3902,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 96.52) (xy 105.41 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a63d9f1e-7486-4b2c-8da9-aec4c9c35bc6")
+	)
+	(wire
+		(pts
 			(xy 77.47 102.87) (xy 78.74 102.87)
 		)
 		(stroke
@@ -3873,6 +3919,16 @@
 			(type default)
 		)
 		(uuid "ad5eef2c-ec65-418a-a4c4-a882e38200e6")
+	)
+	(wire
+		(pts
+			(xy 105.41 91.44) (xy 105.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeba5e1f-41c9-4017-ada4-d7318cc6d0e5")
 	)
 	(wire
 		(pts
@@ -4133,6 +4189,26 @@
 			(type default)
 		)
 		(uuid "fdf15631-6973-48ac-849a-cc6615f69fd4")
+	)
+	(label "USB_D+"
+		(at 80.01 107.95 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "3cca2556-8b51-4c89-b76b-80f801cf0b44")
+	)
+	(label "USB_D-"
+		(at 80.01 105.41 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "42b942e5-ccb8-4c75-b41b-1543b2682000")
 	)
 	(global_label "I2C1_SCL"
 		(shape input)
@@ -4837,7 +4913,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35fb23a5-0cb4-4e5f-862d-3cf18ee45f20")
-		(property "Reference" "C16"
+		(property "Reference" "C43"
 			(at 99.06 52.832 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4899,7 +4975,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/b3797230-ef53-49ba-9bea-2caddfb6bddf"
-					(reference "C16")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -4917,7 +4993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47d3db45-8b48-4bf6-9852-48602cd33283")
-		(property "Reference" "C9"
+		(property "Reference" "C44"
 			(at 99.06 92.7162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4981,7 +5057,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/b3797230-ef53-49ba-9bea-2caddfb6bddf"
-					(reference "C9")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -5156,7 +5232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dbdd8a2-fa2f-45c8-89cd-9d86f6bd47ea")
-		(property "Reference" "J8"
+		(property "Reference" "J6"
 			(at 149.86 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5220,7 +5296,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/b3797230-ef53-49ba-9bea-2caddfb6bddf"
-					(reference "J8")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -5238,7 +5314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5eed641b-1455-40e9-8295-35f8ee4f33b2")
-		(property "Reference" "J15"
+		(property "Reference" "J9"
 			(at 222.25 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5308,7 +5384,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/b3797230-ef53-49ba-9bea-2caddfb6bddf"
-					(reference "J15")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -5405,7 +5481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b14db8d-04b8-4cc3-8b84-950b9a0e96db")
-		(property "Reference" "J1"
+		(property "Reference" "J7"
 			(at 62.23 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5512,7 +5588,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/b3797230-ef53-49ba-9bea-2caddfb6bddf"
-					(reference "J1")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -5599,7 +5675,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 97.79 0)
+		(at 96.52 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5610,7 +5686,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d5d08c4-b590-4ff3-b0e1-c1099a7ff5b4")
 		(property "Reference" "#PWR012"
-			(at 96.52 104.14 0)
+			(at 96.52 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5621,7 +5697,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 102.87 0)
+			(at 96.52 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5632,7 +5708,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 97.79 0)
+			(at 96.52 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5643,7 +5719,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 97.79 0)
+			(at 96.52 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5654,7 +5730,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 97.79 0)
+			(at 96.52 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5687,7 +5763,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85a835ea-6577-4028-8ebe-c27b98433b5d")
-		(property "Reference" "R24"
+		(property "Reference" "R36"
 			(at 90.17 51.816 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5749,7 +5825,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/b3797230-ef53-49ba-9bea-2caddfb6bddf"
-					(reference "R24")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -5924,7 +6000,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "922dcb9a-616b-4d49-aaa2-2ff10e5de89d")
-		(property "Reference" "J13"
+		(property "Reference" "J11"
 			(at 153.67 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5994,7 +6070,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/b3797230-ef53-49ba-9bea-2caddfb6bddf"
-					(reference "J13")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -6012,7 +6088,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "937d1267-225b-4044-a85a-6c00447a45b9")
-		(property "Reference" "J12"
+		(property "Reference" "J10"
 			(at 153.67 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6088,7 +6164,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/b3797230-ef53-49ba-9bea-2caddfb6bddf"
-					(reference "J12")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -6105,7 +6181,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9486c811-4c6c-45a9-ac75-25505169c476")
-		(property "Reference" "R1"
+		(property "Reference" "R38"
 			(at 81.28 90.932 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6167,7 +6243,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/b3797230-ef53-49ba-9bea-2caddfb6bddf"
-					(reference "R1")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -6253,6 +6329,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 105.41 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a315b972-a582-45d1-894d-8a8af1035d1e")
+		(property "Reference" "C47"
+			(at 107.95 92.7162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 107.95 95.2562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 105.41 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 105.41 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6530bca0-1531-4970-87ca-50804961bbb6")
+		)
+		(pin "1"
+			(uuid "1bbf8e49-1048-429b-acbf-3c38b19f8c6e")
+		)
+		(instances
+			(project "FOC-driver"
+				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/b3797230-ef53-49ba-9bea-2caddfb6bddf"
+					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 81.28 97.79 90)
 		(unit 1)
@@ -6263,7 +6421,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae67a0a6-11a2-402b-8e56-1da24339061c")
-		(property "Reference" "R2"
+		(property "Reference" "R39"
 			(at 81.28 102.108 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6325,7 +6483,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/b3797230-ef53-49ba-9bea-2caddfb6bddf"
-					(reference "R2")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -6656,7 +6814,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e11794cb-a110-4b55-a0a3-485f98a683da")
-		(property "Reference" "R25"
+		(property "Reference" "R37"
 			(at 90.17 56.896 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6718,7 +6876,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/b3797230-ef53-49ba-9bea-2caddfb6bddf"
-					(reference "R25")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -6736,7 +6894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e55dc437-68fe-4611-ba9e-8ac346a9ce9c")
-		(property "Reference" "J16"
+		(property "Reference" "J8"
 			(at 217.17 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6810,7 +6968,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/b3797230-ef53-49ba-9bea-2caddfb6bddf"
-					(reference "J16")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -6906,7 +7064,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3347a1b-579d-4694-a023-11fc29ec93db")
-		(property "Reference" "U2"
+		(property "Reference" "U9"
 			(at 74.93 63.754 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6988,7 +7146,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/b3797230-ef53-49ba-9bea-2caddfb6bddf"
-					(reference "U2")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -7005,7 +7163,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb5a9807-cbae-4b86-9004-147d70afc7e1")
-		(property "Reference" "U1"
+		(property "Reference" "U10"
 			(at 91.44 101.092 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7084,7 +7242,7 @@
 		(instances
 			(project "FOC-driver"
 				(path "/1cfe65f9-f673-4819-b0fb-9ca652a1a340/b3797230-ef53-49ba-9bea-2caddfb6bddf"
-					(reference "U1")
+					(reference "U10")
 					(unit 1)
 				)
 			)
