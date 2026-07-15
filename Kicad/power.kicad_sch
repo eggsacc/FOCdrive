@@ -2516,7 +2516,7 @@
 	)
 	(text "External bulk cap. bank\n4x 220/330uF, 63V"
 		(exclude_from_sim no)
-		(at 103.378 66.04 0)
+		(at 77.47 49.784 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3696,7 +3696,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 153.6636 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
