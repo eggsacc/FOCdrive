@@ -5452,7 +5452,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_4x8mm"
+		(property "Footprint" "addons:WireSolder-ID1.6mm-OD3mm"
 			(at 199.39 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -7935,7 +7935,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_4x8mm"
+		(property "Footprint" "addons:WireSolder-ID1.6mm-OD3mm"
 			(at 199.39 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -8192,7 +8192,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_4x8mm"
+		(property "Footprint" "addons:WireSolder-ID1.6mm-OD3mm"
 			(at 199.39 115.57 0)
 			(hide yes)
 			(show_name no)
